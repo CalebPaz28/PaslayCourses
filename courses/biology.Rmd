@@ -1,0 +1,47 @@
+
+
+
+
+##### **Semester outline**
+
+<!---Based on 2022 calendar year--->
+
+Week | Description| Assignment
+:---:|:---:|:---:|
+1|Introduction to Biology|[What is Biology?]()
+2||
+3||
+4||
+5||
+6||
+7||
+8||
+9||
+10||
+11||
+12||
+13||
+14||
+15||
+16||
+
+
+
+
+
+
+
+
+
+
+
+
+## Youtube Resources 
+
+[Crash Course Biology](https://thecrashcourse.com/topic/biology/)
+
+[Khan Academy Biology](https://www.youtube.com/playlist?list=PL7A9646BC5110CF64)
+
+[Amoeba Sisters Biology](https://www.youtube.com/watch?v=DHAK-Idi_OY)
+
+
