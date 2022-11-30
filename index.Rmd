@@ -13,12 +13,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # [Biology](courses/biology/biology.html)
 
-# [Chemistry](courses/chemistry.html)
+# [Chemistry]()
 
-# [Earth Science](courses/chemistry.html)
+# [Earth Science]()
 
-# [Botany](courses/chemistry.html)
-
+# [Botany]()
 
 
 

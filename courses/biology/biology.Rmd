@@ -1,14 +1,10 @@
-
-
-
-
 ##### **Semester outline**
 
-<!---Based on 2022 calendar year--->
+<!---Based on 2022 calendar year and geared toward college schedule--->
 
 Week | Description| Assignment
 :---:|:---:|:---:|
-1|Introduction to Biology|What is Biology?
+1|Science of Life|[What is Biology?](week_1/bio_class_trial.docx)
 2||
 3||
 4||
