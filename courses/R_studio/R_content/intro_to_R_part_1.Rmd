@@ -1,0 +1,320 @@
+---
+title: "Introduction to R: Part 1"
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty: 
+    theme: hpstr
+---
+
+
+[R introduction](https://www.w3schools.com/r/r_intro.asp)
+
+
+## What is R? 
+
+R and R studio are programming devices (languages) used to visualize and represent data. They are also used for statistical analyses and a breadth of many other things. 
+
+## Why use R? 
+
+1. It is a great resource for data analysis, data visualization, data science and machine learning
+
+2. It provides many statistical techniques (such as statistical tests, classification, clustering and data reduction) 
+
+3. It is easy to draw graphs in R, like pie charts, histograms, box plot, scatter plot, etc++ 
+
+4. It works on different platforms (Windows, Mac, Linux) 
+
+5. It is open-source and free 
+
+6. It has a large community support 
+
+7. It has many packages (libraries of functions) that can be used to solve different problems 
+
+## Installation of R
+First we will need to install R. This can be done using various computers (mac, windows, linux).
+
+```{r}
+# Insert R code (Command + option + I)
+```
+
+We can use the R studio console like a basic calculator. 
+```{r message = TRUE}
+5 + 5
+```
+
+If we would like to output a word, we need to use "". 
+```{r}
+"Hello World"
+```
+
+To output numbers we simply input the numbers. 
+```{r}
+1
+```
+
+Often, other coding languages will use the print() function to output information. 
+```{r}
+print("hello world")
+```
+
+The print function is necessary in many cases, so its best to use it consistently. Here is an example of it being used for code that we will learn later:
+
+```{r}
+for (y in 2000:2010) {
+  print(y)
+}
+```
+
+We can use # to comment on our code.
+```{r}
+#using a for...in loop 
+for (y in 2000:2010) {
+  print(y) #this is how we print the output to the console
+}
+```
+
+A powerful aspect of R studio is the ability to create and manipulate variables. 
+
+Name and age are variables and "John" and 23 are values.
+```{r}
+name <- "John" #assigning a character variable
+age <- 23 
+name #output "john"
+age #output 23
+print(name)
+```
+
+We can concatenate elements or join elements. 
+```{r}
+text <- "Jared"
+paste(text, "is awesome!")
+```
+
+We can begin to build multiple elements and variables. 
+```{r}
+text1 <- "R"
+text2 <- "is awesome!"
+paste(text1, text2)
+```
+
+When working with numbers, we use the "+" operator. 
+```{r}
+num1 <- 10
+num2 <- 5
+num1 + num2
+```
+
+We can assign the same value to multiple variables in one line of code.
+```{r}
+var1 <- var2 <- var3 <- c("orange")
+print(var1)
+```
+
+## Legal variable names:
+myvar <- "John"
+my_var <- "John"
+myVar <- "John"
+MYVAR <- "John"
+myvar2 <- "John"
+.myvar <- "John"
+
+## Illegal variable names:
+2myvar <- "John"
+my-var <- "John"
+my var <- "John"
+_my_var <- "John"
+my_v@ar <- "John"
+TRUE <- "John"
+
+Understand the concepts of character types. 
+
+1. numeric - (10.5, 55, 787)
+
+2. integer - (1L, 55L, 100L, where the letter "L" declares this as an integer)
+
+3. complex - (9 + 3i, where "i" is the imaginary part)
+
+4. character (a.k.a. string) - ("k", "R is exciting", "FALSE", "11.5")
+
+5. logical (a.k.a. boolean) - (TRUE or FALSE)
+
+```{r}
+x <- 10.5 #numeric type
+y <- 100L #integer
+z <- 9i + 3 # complex
+xx <- "R is exciting" #character string
+yy <- TRUE #logical/boolean
+
+class(x) #tells us the type
+class(y)
+class(z)
+class(xx)
+class(yy)
+```
+
+## The different types of numbers
+
+1. Numeric (most commonly used)
+```{r}
+x <- 10.5 
+y <- 11
+x
+y
+```
+2. Integer (used when you are certain that decimals will not be used)
+```{r}
+x <- 50L #must use the letter L to specify 
+y <- 100L
+x
+y
+```
+3. Complex
+```{r}
+x <- 3i + 5
+y <- 5i
+x
+y
+```
+
+We can convert from one type to another used base R code functions.
+```{r}
+x <- 1L # integer
+y <- 2 # numeric
+# convert from integer to numeric:
+a <- as.numeric(x)
+# convert from numeric to integer:
+b <- as.integer(y)
+x
+y
+class(a)
+class(b)
+```
+
+We briefly introduced the use of R as a basic calculator, but R also offers math functions.
+```{r}
+max(c(10, 5, 12)) #returns the maximum within the group.
+min(c(10,5,12)) #returns the minimum within the group.
+sqrt(16) #returns the squareroot.
+abs(-4.8) #returns the absolute (positive) value.
+ceiling(4.4) #rounds the value up to the nearest integer.
+floor(4.4) #rounds the value down to the nearest integer. 
+```
+
+## Working with strings of characters
+
+
+```{r}
+str <- "Hello world"
+# (nchar) number of characters in a string. 
+nchar(str) 
+
+# (grepl) used to check if a character is present in a string.
+grepl("H", str) 
+grepl("W", str)
+grepl("X", str)
+
+# (paste) used merge/concatenate two strings
+str1 <- "hello"
+str2 <- "world"
+paste(str1, str2)
+```
+
+## Using the escape characters 
+
+```{r}
+# Using a \ followed by the character that is needing to be excluded.
+str <- "We are the so-called \"Vikings\", from the north."
+str
+cat(str)
+```
+
+\\ backslash
+
+\n new line 
+
+\r carriage return
+
+\t tab
+
+\b backspace
+
+
+## Boolean Operators (<, >, ==, if, then, or, else)
+
+```{r}
+#Boolean is often used to determine if something is TRUE or FALSE
+10 < 11 #TRUE
+10 > 11 #FALSE
+10 == 9 #FALSE
+```
+
+We can also compare different variables. 
+```{r}
+a <- 10 
+b <- 15
+a > b 
+```
+We can also use the IF operator 
+```{r}
+if (b > a){
+  print("b is greater than a")
+}else{
+  print("b is not greater than a")
+}
+```
+
+## R operators 
+
+### Arethmetic Operators 
+```{r}
+5 + 5 #addition operator
+5 - 5 #subtraction operator 
+5 * 5 #multiplication operator
+5 / 5 #division operator 
+5^2 #exponent operator
+5 %% 5 #Modulus (remainder from division)
+5 %/% 5 #integer division
+```
+
+### Assignment operators 
+```{r}
+my_var <- 3
+my_var <<- 3 #global assigner
+3 -> my_varr
+```
+
+### R Comparision operators
+```{r}
+x <- 40
+y <- 50
+
+x == y #Equal
+x != y #Not equal
+x > y #greater than
+x < y #less than
+x >= y #greater than or equal to
+x <= y #less than or equal to
+```
+
+### R Logical operators (used to combine conditional statements)
+```{r}
+#& Element-wise Logical AND operator. It returns TRUE if both elements are TRUE
+#&&	Logical AND operator - Returns TRUE if both statements are TRUE
+#| Element-wise Logical OR operator. It returns TRUE if one of the statement is TRUE
+#|| Logical OR operator. It returns TRUE if one of the statement is TRUE.
+#! Logical NOT - returns FALSE if statement is TRUE
+```
+
+### R miscellaneous operators
+```{r}
+x <- 1:10 #Creates a series of numbers in a sequence	
+x %in% y #Find out if an element belongs to a vector
+#x <- Matrix1 %*% Matrix2 Matrix Multiplication
+```
+
+
+
+
+
+

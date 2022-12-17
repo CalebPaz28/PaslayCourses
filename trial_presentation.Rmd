@@ -1,0 +1,109 @@
+---
+title: Molecular detection of plant viruses infecting pepper in Oklahoma and their
+  subsequent characterization
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output:
+  ioslides_presentation: default
+  powerpoint_presentation: default
+college: University of Tulsa
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+library(ggplot2)
+```
+
+## Background 
+
+- How important is pepper-related research?
+- Pepper production, health benefits, antimicrobial, economic impact
+- Pepper crop -> virus impact -> virus impact on pepper crop
+
+##
+
+```{r}
+# Trialing some data available on R
+sw <- starwars %>% 
+  select("Mass" = mass, "Height" = height, "Name" = name) %>% 
+  arrange(desc(Mass)) %>% 
+  head(n = 10) #use (n) to change the number of observations 
+
+knitr::kable(sw) #converts the data.frame into a very nice table (use knitr::)
+```
+
+
+## Primary Questions
+
+- What viruses are presently infecting pepper (*Capsicum*) crops throughout Oklahoma? 
+
+- Which pepper cultivars may possess natural resistance or tolerance to viral pathogens?
+
+- How can we prepare growers for the current "climate" of viral presence?
+
+
+## General Objectives
+- field sample screening
+- Resistance screening
+
+## Objectives pertaining to field samples
+- Collect field samples from various locations throughout OK
+- Screen for Pepper mild mottle virus (PMMoV)
+- Use NGS to detect unreported or novel viruses
+- Complete genome assembly of viruses obtained
+- Characterize viruses identified using NGS by RT-PCR
+- Sequence confirmation
+- Phylogenetic analyses 
+
+## Objectives pertaining to resistance screening
+- Screen for PMMoV against various cultivars
+
+## Preliminary Results
+
+```{r}
+#field survey data (samples collected, screened, etc.)
+```
+
+```{r}
+#field screening data (virus incidence and detection)
+```
+
+```{r}
+#NGS sequencing data (ilumina sequences obtained)
+```
+
+## Preliminary Results
+### **Currently identified viruses**
+
+1. Alfalfa mosaic virus (AMV)
+2. Beet Curly top virus (BCTV)
+3. Beet western yellows virus (BWYV)
+4. Cucumber mosaic virus (CMV)
+5. Pepper yellow dwarf virus (PepYDV)
+6. Pepper mild mottle virus (PMMoV)
+7. Potato yellow dwarf virus (PYDV)
+8. Tomato yellow leaf curl virus (TYLCV)
+
+## Preliminary Results
+### **RNA viruses (Riboviria)**
+1. Alfalfa mosaic virus (AMV)
+2. Beet western yellows virus (BWYV)
+3. Cucumber mosaic virus (CMV)
+4. Pepper mild mottle virus (PMMoV)
+5. Potato yellow dwarf virus (PYDV)
+
+## Preliminary Results
+### **DNA viruses (Dnaviria)**
+1. Beet Curly top virus (BCTV)
+2. Pepper yellow dwarf virus (PepYDV)
+3. Tomato yellow leaf curl virus (TYLCV)
+
+
+
+
+
+## Smaller investigations
+- Inoculations 
+- Seed transmission
+

@@ -1,0 +1,14 @@
+---
+title: "Courses Home Page"
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty: 
+    theme: hpstr
+---
+
+# [Introduction: Part 1](R_content/intro_to_R_part_1.html)
+
+# [Introduction: Part 2](R_content/intro_to_R_part_2)
+
+# [Introduction: Part 3](R_content/intro_to_R_part_3)

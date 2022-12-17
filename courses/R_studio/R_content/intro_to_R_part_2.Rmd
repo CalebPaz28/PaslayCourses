@@ -1,0 +1,331 @@
+---
+title: "Introduction to R: Part 2"
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty: 
+    theme: hpstr
+---
+
+## Working with R if...else statements
+```{r}
+a <- 33
+b <- 40
+if (b >= a){
+  print("b is greater than a!")
+}
+```
+
+The if..else statement means "If the previous conditions were not true, then try this condition". 
+
+```{r}
+a <- 100
+b <- 200
+if (a > b){
+  print("a is less than b!")
+}else if (a < b){
+    print("a is less than b")
+}
+```
+
+```{r}
+a <- 200
+b <- 200
+if (b > a){
+  print("b is greater than a")
+}else if(a == b){
+  print("a and b are equal")
+}else{ #we can use else without the else if function
+  print("a is greater than b")
+}
+```
+
+```{r}
+a <- 200
+b <- 300
+
+if (a > b){
+  print("a is greater than b")
+}else {
+print("b is greater than a")
+}
+```
+
+```{r}
+x <- 40
+if (x > 10) {
+  print("Above ten")
+  if (x > 20) {
+    print("and also above 20!")
+  } else {
+    print("but not above 20.")
+  }
+} else {
+  print("below 10.")
+}
+```
+
+## AND
+```{r}
+a <- 200
+b <- 33
+c <- 500
+
+if (a > b & c > b){
+  print("both conditions are true")
+}
+```
+
+## OR
+```{r}
+a <- 200
+b <- 33
+c <- 500
+
+if (a > b  | c > b){
+  print("b is a lower than 200")
+}
+```
+
+## Loops 
+Loops can execute a block of code as long as a specified condition is reached. Loops are useful because they save time, reduce errors, and they make code more readable.
+
+### R while loops 
+With the while loop we can execute a set of statements as long as a condition is TRUE. 
+```{r}
+i <- 1
+while(i > 6) {
+  print(i)
+  i <- i + 1 #perform as an increment or the loop will continue forever.
+}
+```
+
+### Breaking the loop
+```{r}
+i <- 1
+while (i < 6) {
+  print(i)
+  i <- i + 1
+  if (i == 4) {
+    break #at 4, the loop will be stopped
+  }
+}
+```
+
+### Is the Next iteration
+```{r}
+i <- 0
+while (i < 6){
+  i <- i + 1
+  if(i == 3){
+    next
+  }
+  print(i)
+}
+```
+
+### If...else and while loops 
+```{r}
+dice <- 0
+while (dice <= 6) {
+  if (dice < 6) {
+    print("No Yahtzee")
+  } else {
+    print("Yahtzee!")
+  }
+  dice <- dice + 1
+}
+```
+
+### R for loops (used for iterating over a sequence)
+```{r}
+for(x in 1:10){
+  print(x)
+}
+```
+
+We can print every item within a list.
+```{r}
+fruits <- c("apple", "pear", "grape")
+
+for(x in fruits){
+  print(x)
+}
+```
+
+printing the numbers of a dice.
+```{r}
+dice <- c(1, 2, 3, 4, 5, 6)
+
+for (x in dice) {
+  print(x)
+}
+```
+
+using the break function to stop the loop.
+```{r}
+fruits <- list("apple", "banana", "cherry")
+
+for (x in fruits) {
+  if (x == "cherry") {
+    break
+  }
+  print(x)
+}
+```
+
+using the next function.
+```{r}
+fruits <- list("apple", "banana", "cherry")
+
+for (x in fruits) {
+  if (x == "banana") {
+    next
+  }
+  print(x)
+}
+```
+
+```{r}
+dice <- 1:6
+
+for(x in dice) {
+  if (x == 6) {
+    print(paste("The dice number is", x, "Yahtzee!"))
+  } else {
+    print(paste("The dice number is", x, "Not Yahtzee"))
+  }
+}
+```
+
+Nesting loops.
+```{r}
+adj <- list("red", "big", "tasty")
+
+fruits <- list("apple", "banana", "cherry")
+  for (x in adj) {
+    for (y in fruits) {
+      print(paste(x, y))
+  }
+}
+```
+
+### Functions 
+A function is a block of code which only runs when it is called.
+You can pass data, known as parameters, into a function.
+A function can return data as a result.
+
+```{r}
+my_function <- function(fname) {
+  paste(fname, "Green")
+}
+
+my_function("Mr")
+my_function("Ms")
+my_function("Mrs")
+```
+
+A functions called arguments must equal the number of arguments in the function. 
+
+```{r}
+my_function <- function(fname, lname) {
+  paste(fname, lname)
+}
+
+my_function("Caleb", "Paslay")
+```
+
+Setting default parameters. 
+```{r}
+my_function <- function(country = "Norway") {
+  paste("I am from", country)
+}
+
+my_function("Sweden")
+my_function("India")
+my_function() # will get the default value, which is Norway
+my_function("USA")
+```
+
+Return values. 
+```{r}
+my_function <- function(L,W){
+  return(L * W) #function for the area of a square or rectangle
+}
+
+my_function(2, 4) #plug in the length and width
+```
+
+```{r}
+my_function <- function(r){
+  return(3.14 * r^2)
+}
+
+my_function(20)
+```
+
+### Nesting functions
+There are two ways to create a nested function:
+Call a function within another function.
+Write a function within a function.
+```{r}
+nested_function <- function(x,y){
+  a <- x + y 
+  return(a)
+}
+nested_function(nested_function(2,2), nested_function(3,3))
+```
+
+```{r}
+Outer_func <- function(x) {
+  Inner_func <- function(y) {
+    a <- x + y
+    return(a)
+  }
+  return (Inner_func)
+}
+output <- Outer_func(3) # To call the Outer_func
+output(5)
+```
+
+### R global variables
+Variables that are created outside of a function are known as global variables. Global variables can be used by everyone, both inside of functions and outside.
+
+```{r}
+txt <- "awesome"
+my_function <- function() {
+  paste("R is", txt) #join or merge
+}
+
+my_function()
+```
+
+```{r}
+txt <- "global variable"
+my_function <- function() {
+  txt = "fantastic"
+  paste("R is", txt)
+}
+
+my_function()
+
+txt # print txt
+```
+
+```{r}
+my_function <- function() {
+txt <<- "fantastic" #global variable inside a function
+  paste("R is", txt)
+}
+
+my_function()
+
+print(txt)
+```
+
+
+
+
+
+
+

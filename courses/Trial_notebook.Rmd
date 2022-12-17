@@ -1,0 +1,26 @@
+---
+title: "Trialing the notebook"
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output:
+  html_notebook: default
+---
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+
+
+```{r}
+```
+

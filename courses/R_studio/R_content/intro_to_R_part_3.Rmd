@@ -1,0 +1,123 @@
+---
+title: "Introduction to R: Part 3"
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty: 
+    theme: hpstr
+---
+
+### R Vectors
+
+A vector is simply a list of items that are of the same type. To combine the list of items to a vector, use the c() function and separate the items by a comma. In the example below, we create a vector variable called fruits, that combine strings:
+
+Character values
+
+```{r}
+fruits <- c("apple", "orange", "grape")
+fruits
+```
+
+Numerical values
+
+```{r}
+numbers <- c(10,20,30)
+numbers
+```
+
+Numerical values with decimals (sequence of numbers)
+
+```{r}
+numbers1 <- 1.5:5.5
+numbers1
+
+numbers2 <- 1.5:5.3 #last element is not used
+numbers2
+```
+
+Vector of logical values
+
+```{r}
+log_value <- c(TRUE, FALSE, TRUE)
+log_value
+length(log_value) #gives us the length of the vector
+```
+
+Sorting values in a vector
+
+```{r}
+fruit <- c("apple", "berries", "orange", "grape", "pear")
+number <- c(1,2,3,4,5,6,7,8,9,10)
+
+sort(fruit) #sorts alphabetically
+sort(number) #sorts numerically
+```
+
+### Access vectors by using the [] brackets
+
+```{r}
+student <- c("aaron", "mike", "haley", "ryan")
+
+#access the first item in a vector
+student[2]
+```
+
+Access multiple elements
+
+```{r}
+student <- c("aaron", "mike", "haley", "ryan")
+
+student[c(1,2)]
+```
+
+Access elements by negation
+
+```{r}
+student <- c("aaron", "mike", "haley", "ryan")
+student[c(-1,-2)] #Not 1
+```
+
+Changing an element within the vector
+
+```{r}
+student <- c("aaron", "mike", "haley", "ryan")
+student[1] <- "rodger" #changing the element
+
+student
+```
+
+### Repeating Vectors
+
+```{r}
+repeat_each <- rep(c(1,2,3), each =3) #repeat each value
+repeat_each 
+```
+
+```{r}
+repeat_times <- rep(c(1,2,3), times = 3) #repeat sequence of the vector
+
+repeat_times
+```
+
+```{r}
+repeat_indepent <- rep(c(1,2,3), times = c(5,2,1)) #repeat each value independently
+
+repeat_indepent
+```
+
+### Creating sequenced vectors (: or seq)
+
+```{r}
+numbers <- 1:20
+numbers
+```
+
+```{r}
+#from: where sequence begins
+#to: where sequence stops
+#by: interval of the sequence
+numbers <- seq(from = 0, to = 20, by = 0.5)
+numbers
+```
+
+

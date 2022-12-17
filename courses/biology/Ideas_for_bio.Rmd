@@ -1,0 +1,34 @@
+---
+title: "Ideas_for_bio"
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output: html_notebook
+editor_options: 
+  chunk_output_type: inline
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+What is the nature of science?
+In general, science is a methodological attempt at understanding and explaining the natural world. To understand how plants photosynthesize, viruses invade host cells, and salamanders engage in courtship provides us with information that may impact life on a grander scale. 
+
+One of the first commandments given to Adam by God, is to name and care for the animals of the earth. Even if you do not believe that Adam was a real person, I think you know that there is an intrinsic component to humanity that desires to care for the earth and steward the animals we share it with. 
+
+The process of science:
+
+1. Make an observation (we see bees pollinate flowers at certain times of day, the sun and moon are always in the southern sky, etc.)
+
+2. Ask a question? 
+
+
+
+
+
+
+```{r}
+
+```
+
+

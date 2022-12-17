@@ -2,14 +2,16 @@
 title: "Courses Home Page"
 author: "Caleb Paslay"
 date: "`r Sys.Date()`"
-output: html_document
-theme: journal
+output: 
+  prettydoc::html_pretty: 
+    theme: hpstr
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# [Presentation](trial_presentation.html)
 
 # [Biology](courses/biology/biology.html)
 
@@ -18,6 +20,8 @@ knitr::opts_chunk$set(echo = TRUE)
 # [Earth Science]()
 
 # [Botany]()
+
+# [R Studio](courses/R_studio/list_of_content.html)
 
 
 
