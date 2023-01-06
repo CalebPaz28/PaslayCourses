@@ -19,7 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 # [Earth Science]()
 
-# [Botany]()
+# [Botany](courses/botany/botany_home_page.html)
 
 # [R Studio](courses/R_studio/list_of_content.html)
 

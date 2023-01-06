@@ -1,0 +1,19 @@
+---
+title: "Botany Class"
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty: 
+    theme: hpstr
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+
+
+

@@ -1,0 +1,103 @@
+---
+title: Biomolecules and Molecular Composition of Plants
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output:
+  ioslides_presentation: default
+  powerpoint_presentation: default
+college: University of Tulsa
+---
+
+## Key terms
+- organic molecule: molecules composed of carbon and hydrogen.
+- Carbohydrates: Consists of sugars and chains of sugars
+- Lipids: mostly nonpolar, and contain fatty acid chains
+- Proteins: composed of amino acids
+- Nucleic acids: DNA and RNA, made up of nucleotides 
+- Macromolecules: Large molecules (such as polysaccharides)
+- polymers: (many parts)
+- monomer: (single part)
+- polymerization: process of linking monomers together into polymers. 
+- Dehydration synthesis (condensation reaction): a molecule of water is removed and a new bond between molecules is formed
+
+## Carbohydrates
+- Monosaccharides (single, or simple sugar) Ex. glucose, fructose, ribose, etc.
+- Disaccharides (two sugars) Ex. lactose and sucrose 
+- Polysaccharides (many sugars) Ex. cellulose, starch, glycogen
+- hydrophilic do to hydroxyl (-OH) and carbonyl (CO) groups
+
+## Monosaccharides
+- Pentoses and hexoses are most abundant in nature
+- Building blocks for the construction of disaccharide and polysaccharide polymers.
+- Glucose: transported in plants, animals, and other vertebrates and used as the primary source of chemical energy.
+
+## Disaccharides
+- Sucrose in transported throughout plants (sugar beets and sugarcane)
+- Disaccarides are formed from a chemical interaction call condensation (removal of water). This requires an input of energy
+- When a disaccaride is split into two monosaccarides, this reaction is called hydrolysis ("water" "break up") or addition of a water molecule. 
+- hydrolysis are energy-yielding reactions that are essential for energy transfers in the cell
+
+## Polysaccarides
+- function as storage forms of sugars and also have a structural role. 
+
+## Polysaccarides (sugars)
+- Starch: primary storage polysaccharide in plants (chains of glucose monomers)
+- Amylose: unbranched form of starch
+- Amylopectin: branched form of starch
+- Glycogen: Common storage polysaccharide in prokaryotes, fungi, and animals.
+ - much more branch, but has similarities to amylopectin. 
+- Fructans: Polymer made up of fructose monomers are often found in grains (wheat, rye, and barley). Water soluble and can be stored in much higher concentrations than starch. 
+
+## Polysaccarides (structure)
+- The primary structural component of plant cell walls is made up of a polysaccharide called cellulose. 
+- Cellulose is the most abundant organic compound in the world
+- Half of the worlds organic carbon is maintained in the form of cellulose.
+- Wood is about 50% cellulose, and cotton is nearly 100% cellulose. 
+- Cellulose is composed of glucose monomers, but is not readily digestible by most organsisms. Why?
+- Glucose molecules in polymer-like chains can have different orientations (alpha and beta), which leads to its potential to be hydrolyzed. Enzymes in most animals cannot bind to and hydrolyze beta-glucose bonds. 
+- Cellose forms long chains that can bind to other cellulose chains forming microfibrils. 
+- Cellulose along with hemicellulose and pectins establish a stable cell wall. 
+- Hemicellulose stabalize the cell wall by binding to cellulose microfibrils.
+- Pectin is easy to comprehend as a gelling agent. Cements the walls together of adjacent plant cells. 
+-Chitin: structural polysaccharides found in the cell walls of fungi, exoskeletons of insects and crustaceans. Basic subunit is N-acetylglucosamine.
+
+## Lipids
+- Generally hydrophobic ("water-fearing")
+- Storage as fats and oils, but structural as phospholipids and waxes.
+- Plants often store energy in the form of carbohydrates (glycogen), but also store energy in the form of fats and oils (often in seeds)
+- In animals, excess sugars are converted into fats.
+- This is because fats and oils have a higher proportion of energy-rich, carbon-hydrogen bonds than carbohydrates. 
+- On average, fats yield 9.1 kcal (kilocalories) per gram, where carbohydrates yield 3.8 kcal, and proteins yield 3.1 kcal. 
+
+## Triglycerides
+- composed of a glycerol bound to 3 fatty acids chains 
+- nonpolar, clustar together in hydrophilic solutions
+- Saturated: contains no double bonds between carbons (the chain is saturated with hydrogens)
+- Unsaturated: Carbons in the fatty acid chain contain double bonds between carbons
+- At room temperature, saturated triglycerides are often solid (or fats)
+- At room temperature, unsaturated triglycerides are often liquid-like (oils)
+- **Fat** or **oil** refers to the physical state of the lipid
+
+## Phospholipids
+- Similar to triglycerides, except they contain a phosphate (polar) group in place of a fatty acid
+- Phospholipid bilayer: phosphate heads directed toward the polar environment, and the fatty acid tails (nonpolar) coalescing together.
+
+## Key Ideas
+
+-CHNOPS (carbon, hydrogen, nitrogen, oxygen, phosphorous, and sulfur) - make up 99% of all living matter
+- Estimated that bacterial cells contain some 5000 organic molecules
+- Glucose is the primary source of chemical energy in plant cells (as well as human)
+-Sucrose is the primary form in which sugars are transported throughout the plant vasculature. 
+
+
+
+## Key questions 
+What are the four main types of organic molecules found in plant cells, and what are their basic structural units and principle functions?
+
+What is an enzyme? why are enzymes important in cellular processes?
+
+How does ATP differ from ADP, and why is ATP important?
+
+What is the difference between primary and secondary metabolites?
+
+What are the main types of secondary metabolites? Provide examples. 

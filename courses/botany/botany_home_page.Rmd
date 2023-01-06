@@ -1,0 +1,41 @@
+---
+title: "Botany Home Page"
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty: 
+    theme: hpstr
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!---Based upon Biology of Plants book (Evert Eichhorn)
+<!---Based on 2022 calendar year and geared toward college schedule--->
+<!---Use molView to create images of chemical structures--->
+
+
+<!--- I need to change this format, and give the week a general title--->
+<!--- I will need to include a more in-depth plan of action (day by day)--->
+
+## Tentative Semester Schedule
+Week | Question| Topic
+:----:|:-------------:|:-------------:|
+ 1 |What is Science?|[Nature of Science](week_1_items/week_1_page.html)
+ 2 |What is the plant cell?|[The Cell]()
+ 3 |How do plants obtain energy?|[Photosynthesis and Respiration]()
+ 4 |How is DNA involved?|[Sexual Reproduction and Heredity]()
+ 5 |What is evolution in plant?|[Evolution and Phylogenetics]()
+ 6 |What is the role of other organisms?|[prokaryotes, viruses, fungi]()
+ 7 |What about plant-like groups?|[Protists and Bryophytes]()
+ 8 ||[]()
+ 9 ||
+ 10||
+ 11||
+ 12||
+ 13||
+ 14||
+ 15||
+ 16||
+

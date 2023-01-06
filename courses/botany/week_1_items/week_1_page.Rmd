@@ -1,0 +1,15 @@
+---
+title: Week_1 Attachments 
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output:
+  ioslides_presentation: default
+  powerpoint_presentation: default
+college: University of Tulsa
+---
+
+## Links
+- [Quiz_1]()
+- [Assignment_1]()
+- [Lecture_slides]()
+- [Key_ideas]()

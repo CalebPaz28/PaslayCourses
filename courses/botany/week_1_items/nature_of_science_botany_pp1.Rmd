@@ -1,0 +1,68 @@
+---
+title: "Nature of Science"
+author: "Paslay"
+date: "`r Sys.Date()`"
+output: ioslides_presentation
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## What is science? 
+
+## Scientific method
+- Observation
+- Question
+- Hypothesis
+- Experimental design
+- Analysis
+- Conclusions 
+- Support or refute hypothesis
+- Discard hypothesis or revise current hypothesis
+- Inform the scientific community of the results obtained
+- Rinse and repeat
+
+## 
+
+
+
+
+
+## Biblical references
+- (Genesis -> creation of plants, )
+- "On the _ day, God created ___. 
+
+## What is botany or plant biology? 
+- The study of **plants** and their interactions with one another and the external environment. 
+
+- Breeding, cultivation, pest management, etc. 
+
+- (Insert image of plant scientist)
+
+## Week 1 Objectives
+- Plant studies range far and wide but the general focus here is related to understanding fundamental discoveries, key scientists, political movements, and future perspectives. 
+
+
+## Historical perspective 
+- Major discoveries 
+_ Famous scientists 
+- Political movements 
+- 
+
+## Future directions 
+- CRISPR/cas9
+- NGS
+- transgenic plants
+- sustainable agriculture 
+- 
+
+## Our response
+- What is our role in caring for plants? 
+- How are plants impacting our lives?
+
+## Data 
+
+- Using rentrez, I can make graphs of "plant biology", "plant science", "botany" searches to see when publications started becoming publicly available through pubmed. 
+
+
+

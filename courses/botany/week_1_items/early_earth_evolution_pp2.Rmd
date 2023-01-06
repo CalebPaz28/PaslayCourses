@@ -1,0 +1,97 @@
+---
+title: Early Earth as an Introduction to Plant Biology
+author: "Caleb Paslay"
+date: "`r Sys.Date()`"
+output:
+  ioslides_presentation: default
+  powerpoint_presentation: default
+college: University of Tulsa
+---
+
+<!--- from chapter 1 in Raven Biology of Plants --->
+
+## Key Terms 
+- Evolution: change over time
+- Stromatolites: Fossilized microbial mats, formed by cyanobacteria
+- Heterotrophs: "other feeder" -most organisms 
+- Autotrophs: "self feeder" - plants, "protists"
+- Prokaryotic: "before nucleus" 
+- Archaea: "ancient ones" were likely the first prokaryotes.
+- Eukaryotic: "with nucleus"
+- Biosphere: Living world and the surrounding environment
+- Respiration: use of oxygen to break down glucose (aerobic respiration)
+- Anerobic respiration: or oxygenless process
+
+## Key terms : Plants
+- Roots: anchor the plant in the ground and collect water and minerals
+- Stems: provide support for photosynthetic organs, and transport materials
+- Leaf: primary photosynthesizing organs of plants
+- Epidermis: outermost layer of cells 
+- Cuticle: covers the epidermis. Protective and prevents excessive water loss
+- Stomata (singular: stoma): gateway for water and gas exchange
+- Guard cells (gates of stomata): open and close in response to environmental or physiological stimuli.
+- Annuals: plants with a one year life span
+- perennials: stem may become woody and covered with cork
+- Vascular system: or conducting system, transport materials from photosynthetic to nonphotosynthetic organs and vice versa. 
+- Xylem: transports water
+- Phloem: transports sugars synthesized in photosnythetic organs to the rest of the plant body.
+- Meristems: where plant growth originates
+- Apical meristem (or primary growth): located at tips of roots and shoots (roots constantly extend to reach more minerals and water, stems constantly reach to obtain more light)
+- Lateral meristem (or secondary growth): thickening of stems and roots, originates from vascular cambium and cork cambium. 
+- Seed: Contains the embryo, supply of stored food, and a protective seed coat.
+Biomes: natural communities characterized by distinctive features. (tundra, desert, savanna, forests)
+Ecosystem: Nonliving and living aspects of a given environment
+
+Botany: Science that deals with plants, prokaryotes, fungi, and algae.
+Plant physiology: how plants function
+Plant morphology: study of the form of plants
+Plant anatomy: study of plant structures
+Plant taxonomy: naming and classifying plants and relationships among them
+Cytology: study of cell structure, function, and life histories
+Genetics: study of heredity and varation
+Genomics: study of content, organization, and function of genetic information
+Molecular biology: study of structure and function of biological molecules
+Economic botany: study of past, present, and future uses of plants by people
+Ethnobotany: study of plants for medicinal uses
+Ecology: study of relationships between organisms and their environment
+Paleobotany: study of biology and evolution of fossil plants
+
+## Importance of studying plants
+
+- Greenhouse-effect
+- Global warming
+- Phytoremediation: cleaning polluted environments with the help of plants
+- Genetic engineering: Transfer of genes from other organisms with advantageous traits into plants (transgenic plants) Ex. b-carotene enrichment of rice (other examples in book)
+
+
+
+
+## Key dates
+- Earth (~4.6 billion years old)
+- Earliest known fossils were found in western Australia (~3.5 bya)
+- 700 mya atmospheric O2 levels rose sharply.
+- 650 mya organisms evolved in which cells were linked to form integrated, multicellular bodies. 
+- 450 mya, life crept up on land.
+
+## key questions
+- Did life on earth come from space (meteor)?
+- Did life arise on earth itself?
+
+## Book Questions
+- What was the likely source of raw material incorporated into the first life forms?
+- What criteria would you use to determine whether an entity is a form of life?
+- What role did oxygen play in the evolution of life on earth?
+- What advantages do terrestial plants have over their aquatic ancestors? Can you think of disadvantages to being a terrestial plant?
+- Plants enter our lives in inumerable ways other than sources of food. How many ways can you list? Have you thanked a green plant today?
+- A knowledge of botany- of plants, fungi, algae, and bacteria- is key to our understanding of how the world works. How is that knowledge important in dealing with today's and tomorrow's problems?
+
+## key ideas
+- Increase in O2 results in the formation of an ozone (O3), protecting earth's surface from harmful ionizing radiation, and life on land become possible around 450 mya. 
+- Sufficient atmospheric oxygen allowed for RESPIRATION, leading to first indications of Eukaryotic organisms. 
+- Requirements of photosynthetic organisms: light, water, carbon dioxide, O2, and minerals. 
+- Plants evolved reproductive cells (spores) in their transition to land. A more complex reproductive strategy later evolved into what we know as seeds or seed plants. 
+
+
+
+
+

@@ -1,0 +1,18 @@
+---
+title: "Botany Quiz 1"
+author: "Paslay"
+date: "`r Sys.Date()`"
+output: 
+  prettydoc::html_pretty: 
+    theme: hpstr
+---
+
+### 1. In your best words, broadly define science. Give one specific detail of why it is important. 
+
+### 2. Describe a hypothesis. Give an example. 
+
+### 3. If I decide to perform an experiment, what are (3) prelimary steps I should take to prepare for successful doing so? 
+
+### 4. .....
+
+### 5. .....
